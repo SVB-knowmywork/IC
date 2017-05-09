@@ -1,0 +1,20 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="7.5dp"
+    android:paddingLeft="7.5dp"
+    android:paddingRight="7.5dp"
+    android:fillViewport="true"
+    >
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="interestcalculator.knowmywork.com.ic.ListViewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv" />
+
+</android.support.v4.widget.NestedScrollView>
+
+
